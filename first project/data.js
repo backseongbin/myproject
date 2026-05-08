@@ -12,7 +12,7 @@ const BENEFITS_DB = [
     desc: "소득이 중위소득 30% 이하인 가구에 최저 생계 보장을 위한 급여를 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050076",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       maxIncomeLevel: 3,
       householdTypes: ["single","couple","family","singleParent","elder","disabled"],
@@ -29,7 +29,7 @@ const BENEFITS_DB = [
     desc: "중위소득 48% 이하 가구에 임차료 또는 주택 수선비를 지원합니다.",
     agency: "국토교통부",
     link: "https://www.myhome.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050078",
+    applyLink: "https://www.myhome.go.kr",
     conditions: {
       maxIncomeLevel: 5,
       housing: ["rent", "monthly"],
@@ -46,7 +46,7 @@ const BENEFITS_DB = [
     desc: "중위소득 40% 이하 가구에 외래·입원 의료비를 지원합니다.",
     agency: "보건복지부",
     link: "https://www.mohw.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050079",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       maxIncomeLevel: 4,
     },
@@ -61,8 +61,8 @@ const BENEFITS_DB = [
     amount: "월 50만원 × 최대 6개월 (구직촉진수당)",
     desc: "취업을 원하는 청년(15~69세)에게 취업지원서비스와 구직촉진수당을 지원합니다.",
     agency: "고용노동부",
-    link: "https://www.kua.go.kr",
-    applyLink: "https://www.kua.go.kr",
+    link: "https://www.work24.go.kr",
+    applyLink: "https://www.work24.go.kr",
     conditions: {
       minAge: 15,
       maxAge: 34,
@@ -98,8 +98,8 @@ const BENEFITS_DB = [
     amount: "월 최대 20만원 × 12개월",
     desc: "독립 거주 청년의 주거비 부담 경감을 위해 월세를 지원합니다.",
     agency: "국토교통부",
-    link: "https://youth.myhome.go.kr",
-    applyLink: "https://youth.myhome.go.kr",
+    link: "https://www.myhome.go.kr",
+    applyLink: "https://www.myhome.go.kr",
     conditions: {
       minAge: 19,
       maxAge: 34,
@@ -119,7 +119,7 @@ const BENEFITS_DB = [
     desc: "만 8세 미만 아동에게 매월 10만원을 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050082",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       minChildCount: 1,
     },
@@ -135,7 +135,7 @@ const BENEFITS_DB = [
     desc: "0~1세 자녀를 가정에서 양육하는 부모에게 매월 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050083",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       minChildCount: 1,
       extras: ["newborn"],
@@ -152,7 +152,7 @@ const BENEFITS_DB = [
     desc: "출생아 가정에 바우처를 지급하여 초기 양육 비용을 지원합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050084",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       minChildCount: 1,
       extras: ["newborn"],
@@ -169,7 +169,7 @@ const BENEFITS_DB = [
     desc: "만 65세 이상 소득 하위 70%에 해당하는 어르신에게 매월 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050085",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       minAge: 65,
       maxIncomeLevel: 7,
@@ -186,7 +186,7 @@ const BENEFITS_DB = [
     desc: "중증장애인 중 소득인정액이 일정 기준 이하인 분께 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050086",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       maxIncomeLevel: 7,
       extras: ["disability"],
@@ -203,7 +203,7 @@ const BENEFITS_DB = [
     desc: "한부모 및 조손가족의 자녀 양육을 위한 양육비를 지원합니다.",
     agency: "여성가족부",
     link: "https://www.mogef.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050087",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       householdTypes: ["singleParent"],
       maxIncomeLevel: 6,
@@ -254,7 +254,7 @@ const BENEFITS_DB = [
     desc: "임신·출산 관련 의료비 및 물품 구입에 사용할 수 있는 바우처를 지급합니다.",
     agency: "보건복지부",
     link: "https://www.bokjiro.go.kr",
-    applyLink: "https://www.gov.kr/portal/service/serviceInfo/PTR000050088",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       extras: ["pregnant"],
     },
@@ -290,8 +290,8 @@ const BENEFITS_DB = [
     amount: "70만원 (교통카드 포인트)",
     desc: "서울시 거주 임산부에게 대중교통 이용 교통비를 지원합니다.",
     agency: "서울특별시",
-    link: "https://news.seoul.go.kr",
-    applyLink: "https://news.seoul.go.kr",
+    link: "https://www.imsanbu.seoul.go.kr",
+    applyLink: "https://www.imsanbu.seoul.go.kr",
     conditions: {
       region: ["seoul"],
       extras: ["pregnant"],
@@ -308,7 +308,7 @@ const BENEFITS_DB = [
     desc: "국가 기초수급 탈락 가구에 서울시가 별도로 생계비를 지원합니다.",
     agency: "서울특별시",
     link: "https://welfare.seoul.go.kr",
-    applyLink: "https://welfare.seoul.go.kr",
+    applyLink: "https://www.bokjiro.go.kr",
     conditions: {
       region: ["seoul"],
       maxIncomeLevel: 4,
@@ -325,8 +325,8 @@ const BENEFITS_DB = [
     amount: "연 120만원 (복지포인트)",
     desc: "경기도 내 중소기업 재직 청년에게 복지포인트를 지원합니다.",
     agency: "경기도",
-    link: "https://www.gg.go.kr",
-    applyLink: "https://www.gg.go.kr",
+    link: "https://www.jobaba.net",
+    applyLink: "https://www.jobaba.net",
     conditions: {
       minAge: 18,
       maxAge: 34,
@@ -363,7 +363,7 @@ const BENEFITS_DB = [
     desc: "부산 소재 기업에 취업하는 청년에게 장려금을 지원합니다.",
     agency: "부산광역시",
     link: "https://www.busan.go.kr",
-    applyLink: "https://www.busan.go.kr",
+    applyLink: "https://www.busanjob.net",
     conditions: {
       minAge: 18,
       maxAge: 34,
@@ -383,7 +383,7 @@ const BENEFITS_DB = [
     desc: "일상생활 수행이 어려운 65세 이상 노인에게 방문요양, 시설요양 등을 제공합니다.",
     agency: "국민건강보험공단",
     link: "https://www.nhis.or.kr",
-    applyLink: "https://www.nhis.or.kr",
+    applyLink: "https://www.longtermcare.or.kr",
     conditions: {
       minAge: 65,
       extras: ["longTermCare"],
